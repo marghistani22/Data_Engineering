@@ -33,13 +33,27 @@ This assessment aims to:
 ### **Required Submissions**:
 1. **SQLite Database File**:
    - Save the database file (`mmdt.db`) in the **Projects/01_Creating_SQLite_Database/database** folder.
-   
-2. **SQL Query Notebook (Optional)**:
+
+2. **Schema Documentation**:
+   - Explain the schema generated using the default setup in Step 2. This is required only if you are not working on Step 3.
+
+3. **SQL Query Notebook (Optional)**:
    - Include a notebook containing the SQL queries used for creating the database.
 
-3. **Design Documentation (Optional)**:
+4. **Design Documentation (Optional)**:
    - Provide a brief explanation of your thought process behind the database design and schema.
 
 ### **Deadline**:
-- Submit all files to the designated submission folder by **6 February 2025**.
+- Submit all files to the Assignments submission folder by **6 February 2025**.
 
+### **Grading Criteria (10 Points Total)**
+
+1. **SQLite Database File (5 Points)**  
+   - Complete and accurate database file with all tables and data imported correctly.
+
+2. **Schema Documentation (5 Points)**  
+   - Clear explanation of the schema generated from the default setup (required if Step 3/4 is not completed).
+
+3. **Optional Components (Up to 5 Points)**  
+   - **SQL Query Notebook (2 Points)**: Includes relevant SQL queries for creating or exploring the database.  
+   - **Design Documentation (3 Points)**: Explanation of database design, relationships, and schema improvements (if applicable).

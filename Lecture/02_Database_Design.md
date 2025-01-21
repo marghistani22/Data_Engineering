@@ -81,8 +81,8 @@ By the end of this lecture, you will:
 
 ### 📝 **In-class Assignment**
 1. **Template**: Use the provided [Google Docs template](https://docs.google.com/document/d/1pnFcJMD60s7axZ195MbQuxNfZSzVf0uYNNLPZXWCAW4/edit?usp=sharing) to complete your assignment.
-2. **File Naming**: Rename the document using the format: `Lecture01_firstname_lastname`.
-3. **Submission**: Upload your completed assignment to the designated folder.
+2. **File Naming**: Rename the document using the format: `Lecture02_firstname_lastname`.
+3. **Submission**: Upload your completed assignment to the **Assignments** folder.
 
 ---
 

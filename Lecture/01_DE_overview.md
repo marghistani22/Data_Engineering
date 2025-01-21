@@ -48,7 +48,7 @@ By the end of this lecture, you will:
 ## 🛠️ **Activity**
 1. **Template**: Use the provided [Google Docs template](https://docs.google.com/document/d/1pnFcJMD60s7axZ195MbQuxNfZSzVf0uYNNLPZXWCAW4/edit?usp=sharing) to create your assignment.
 2. **File Naming**: Rename the document using the format: `Lecture01_firstname_lastname`.
-3. **Submission**: Upload your completed assignment to the Assignments folder.
+3. **Submission**: Upload your completed assignment to the **Assignments** folder.
 ---
 
 ## 📌 **Key Takeaways**
@@ -68,8 +68,5 @@ By the end of this lecture, you will:
 
 ---
 
-### 💬 **Questions?**
-If you have any questions, feel free to reach out during the lecture or via the discussion forum.
 
-Let’s dive into the exciting world of data engineering! 🚀
 
