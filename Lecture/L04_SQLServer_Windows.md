@@ -3,8 +3,8 @@
 This tutorial will guide you through the process of installing Microsoft SQL Server on a Windows machine. 
 
 **References**: 
-1. [SQL_Sever Installation](https://learn.microsoft.com/en-us/sql/sql-server/install/what-s-new-in-sql-server-installation?view=sql-server-ver16)
-2. [What is SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16)
+1. [What is SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16)
+2. [SQL_Sever Installation](https://learn.microsoft.com/en-us/sql/sql-server/install/what-s-new-in-sql-server-installation?view=sql-server-ver16) 
 
 
 ## Prerequisites
