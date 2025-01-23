@@ -1,36 +1,35 @@
-# Setting Up and Exploring the Northwind Sample Database
+# Setting Up and Exploring the Microsoft Sample Database
 
-This tutorial guides you through downloading, restoring, and exploring the Northwind database. It also provides sample queries to help you get started.
+This tutorial guides you through downloading, restoring, and exploring Microsoft's WideWorldImporters sample database. WideWorldImporters is a modern sample database designed to help users learn database concepts with real-world scenarios.
 
 ---
 
-## Step 1: Download the Northwind Database
+## Step 1: Download the WideWorldImporters Database
 
-1. Visit the official GitHub repository for Northwind: [Northwind Sample Database](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
+1. Visit the official Microsoft SQL Server GitHub repository:
+   [WideWorldImporters Sample Databases](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers).
 
 2. Download the `.bak` file:
-
-   - Locate the `northwind.bak` file in the repository.
-   - Click on the file name and then click **Download** to save it to your local machine.
+   - Locate the `WideWorldImporters-Full.bak` file for the transactional database.
+   - Click the file name and then **Download** to save it to your local machine.
 
 ---
 
 ## Step 2: Restore the Database
 
 ### Prerequisites
+Ensure you have SQL Server and SQL Server Management Studio (SSMS) installed. Refer to [How to Install SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16) if necessary.
 
-Ensure you have SQL Server and SQL Server Management Studio (SSMS) installed. If not, refer to [How to Install SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16).
-
-### Restore the `.bak` File
+### Steps to Restore the Database
 
 1. Open **SQL Server Management Studio (SSMS)**.
 2. Connect to your SQL Server instance.
 3. Right-click on **Databases** in the Object Explorer pane and select **Restore Database...**.
 4. In the **Restore Database** window:
    - Choose **Device** and click the ellipsis (`...`).
-   - Click **Add** and navigate to the location where you downloaded the `northwind.bak` file.
+   - Click **Add** and navigate to the location where you downloaded the `WideWorldImporters-Full.bak` file.
    - Select the file and click **OK**.
-5. Ensure the **Database** field is set to `Northwind`.
+5. Ensure the **Database** field is set to `WideWorldImporters`.
 6. Click **OK** to start the restoration process.
 
 ---
@@ -38,54 +37,50 @@ Ensure you have SQL Server and SQL Server Management Studio (SSMS) installed. If
 ## Step 3: Verify the Database
 
 1. Expand the **Databases** node in the Object Explorer pane.
-2. Verify that the `Northwind` database appears in the list.
-3. Expand the `Northwind` node to view its tables, such as `Customers`, `Orders`, `Products`, etc.
+2. Verify that the `WideWorldImporters` database appears in the list.
+3. Expand the `WideWorldImporters` node to view its tables, such as `Customers`, `Orders`, `StockItems`, etc.
 
 ---
 
 ## Step 4: Write and Execute Sample Queries
 
-Here are some example queries to explore the Northwind database:
+Here are some example queries to explore the WideWorldImporters database:
 
 ### Query 1: Retrieve All Customers
-
 ```sql
-SELECT * FROM Customers;
+SELECT * FROM Application.Customers;
 ```
 
-### Query 2: Find Top 5 Products by Units in Stock
-
+### Query 2: Find Top 5 Products by Stock Quantity
 ```sql
-SELECT TOP 5 ProductName, UnitsInStock
-FROM Products
-ORDER BY UnitsInStock DESC;
+SELECT TOP 5 StockItemName, QuantityOnHand
+FROM Warehouse.StockItems
+ORDER BY QuantityOnHand DESC;
 ```
 
 ### Query 3: List Orders with Customer Details
-
 ```sql
-SELECT Orders.OrderID, Customers.ContactName, Orders.OrderDate
-FROM Orders
-INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
-ORDER BY Orders.OrderDate DESC;
+SELECT Sales.Orders.OrderID, Application.Customers.CustomerName, Sales.Orders.OrderDate
+FROM Sales.Orders
+INNER JOIN Application.Customers ON Sales.Orders.CustomerID = Application.Customers.CustomerID
+ORDER BY Sales.Orders.OrderDate DESC;
 ```
 
 ### Query 4: Calculate Total Sales by Product
-
 ```sql
-SELECT Products.ProductName, SUM([Order Details].UnitPrice * [Order Details].Quantity) AS TotalSales
-FROM [Order Details]
-INNER JOIN Products ON [Order Details].ProductID = Products.ProductID
-GROUP BY Products.ProductName
+SELECT Warehouse.StockItems.StockItemName, SUM(Sales.OrderLines.UnitPrice * Sales.OrderLines.Quantity) AS TotalSales
+FROM Sales.OrderLines
+INNER JOIN Warehouse.StockItems ON Sales.OrderLines.StockItemID = Warehouse.StockItems.StockItemID
+GROUP BY Warehouse.StockItems.StockItemName
 ORDER BY TotalSales DESC;
 ```
 
-### Query 5: Retrieve Employees in Each Region
-
+### Query 5: Retrieve Orders by Salesperson
 ```sql
-SELECT Region, COUNT(EmployeeID) AS EmployeeCount
-FROM Employees
-GROUP BY Region;
+SELECT Sales.Orders.OrderID, Application.People.FullName AS Salesperson, Sales.Orders.OrderDate
+FROM Sales.Orders
+INNER JOIN Application.People ON Sales.Orders.SalespersonPersonID = Application.People.PersonID
+ORDER BY Sales.Orders.OrderDate DESC;
 ```
 
 ---
@@ -93,20 +88,16 @@ GROUP BY Region;
 ## Step 5: Create Assignments for Students
 
 ### Beginner Task
-
-- Write a query to find all customers located in Germany.
+- Write a query to find all customers from a specific country (e.g., USA).
 
 ### Intermediate Task
-
-- Create a query to list all orders placed in 1997, sorted by order date.
+- Create a query to list all orders placed in the last 30 days.
 
 ### Advanced Task
-
-- Write a query to find the total revenue generated by each employee.
+- Write a query to calculate total revenue generated by each salesperson.
 
 ---
 
 ## Conclusion
-
-The Northwind database is an excellent resource for learning SQL. These exercises provide students with real-world scenarios and challenges to hone their database skills. Feel free to expand upon these queries or create additional assignments based on the database structure.
+The WideWorldImporters database offers a robust and realistic dataset for learning SQL and database management concepts. These exercises provide a mix of beginner, intermediate, and advanced challenges to help students practice querying, data analysis, and database design. Expand upon these queries or create additional assignments to deepen understanding.
 
