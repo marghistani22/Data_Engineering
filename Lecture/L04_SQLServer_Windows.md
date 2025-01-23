@@ -96,18 +96,10 @@ Before you begin, ensure that your system meets the following requirements:
 
 ---
 
-## Step 8: Test Your Installation
+## Step 8: If succsesful, you should see the server you just created. 
 
-1. To verify your SQL Server installation, run the following query in SSMS:
-   ```sql
-   SELECT @@VERSION;
-   ```
-2. Review the output to confirm the installed version and edition.
-3. Optionally, test creating a database:
-   ```sql
-   CREATE DATABASE TestDB;
-   ```
-   If successful, your installation is complete and functional.
+![image](https://github.com/user-attachments/assets/af18d508-d7d8-4be7-9e0c-27ee01885b23)
+
 
 ---
 
