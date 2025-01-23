@@ -168,5 +168,3 @@ If the SQL Server instance needs to be accessed remotely:
 
 ---
 
-Congratulations! You’ve successfully installed and configured Microsoft SQL Server on Linux.
-
