@@ -4,7 +4,7 @@ This tutorial will guide you through the process of installing Microsoft SQL Ser
 
 **References**: 
 1. [What is SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16)
-2. [SQL_Sever Installation](https://learn.microsoft.com/en-us/sql/sql-server/install/what-s-new-in-sql-server-installation?view=sql-server-ver16) 
+2. [SQL_Server Installation](https://learn.microsoft.com/en-us/sql/sql-server/install/what-s-new-in-sql-server-installation?view=sql-server-ver16) 
 
 
 ## Prerequisites
@@ -36,13 +36,11 @@ Before you begin, ensure that your system meets the following requirements:
 
 ## Step 3: Choose the Features to Install
 
-1. If you selected **Custom** installation, you will be prompted to choose the features you want to install. You can leave the default features selected or customize based on your needs.
+1. During the installation process, you can customize the features to be installed. If you're unsure, it is safe to proceed with the default selections. However, if you plan to perform specific tasks (e.g., advanced analytics or reporting), ensure you select features like:
 
-   Some common features include:
-   - **SQL Server Database Engine**: For database management.
-   - **SQL Server Management Studio (SSMS)**: GUI tool for managing your SQL Server.
-   - **SQL Server Reporting Services**: For reports and analysis.
-   - **SQL Server Integration Services**: For data migration tasks.
+- SQL Server Database Engine: For creating and managing databases.
+- SQL Server Integration Services (SSIS): For data migration and ETL processes.
+- SQL Server Reporting Services (SSRS): For generating reports.
 
 2. Select your desired features and click **Next**.
 
