@@ -1,4 +1,4 @@
-# **Lecture 04: Introduction to Data Warehouse**
+# **Lecture 03: Introduction to Data Warehouse**
 
 Welcome to the fourth lecture of the **Data Engineering Principles** course! This lecture introduces data warehouses, their purpose, and how they differ from traditional databases. You will also learn about key concepts like OLAP, schema design, and the role of data warehouses in modern analytics.
 
