@@ -121,5 +121,4 @@ Before you begin, ensure that your system meets the following requirements:
 
 ---
 
-Congratulations! You’ve successfully installed and configured Microsoft SQL Server. Start building and managing databases today!
 
