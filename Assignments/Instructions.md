@@ -3,7 +3,7 @@
 ### **1. Uploading Assignments**
 - Upload all **in-class assignments** and **take-home assignments** to this (Assignments) folder.
 - Ensure all assignments have the correct filename format:  
-  **`firstname_lastname`** (e.g., `john_doe`).
+  **`firstname_lastname_assginment_name`** (e.g., `john_doe_L01`).
 - **No marks will be awarded** if filenames do not match the required format.
 
 ---
