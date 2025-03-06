@@ -35,7 +35,8 @@ You have been given access to an SQLite database (`survey.db3`) generated from t
 ### Question 2: Transform (5 marks)  
 
 - Perform **data cleaning** on the `support` table.  
-- You can use the **COALESCE** function to replace missing values according to the specified criteria.  
+- Replace missing values according to the specified criteria in the below table.
+- You can use the SQLite **COALESCE** function or you can use Python **replace** function.
 
 #### **Data Cleaning Requirements**  
 
