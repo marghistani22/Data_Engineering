@@ -25,7 +25,7 @@ You have been given access to an SQLite database (`survey.db3`) generated from t
 ---
 ### Question 1: Extract (3 marks)
 
-- Complete the `extract` function to retrieve all records from a specified table and return a `pandas` DataFrame.  
+- Write a Python function, called `extract`  to retrieve all records from a specified table and return a `pandas` DataFrame.  
   - Use the `pd.read_sql()` function to fetch the data.  
   - Ensure the function returns a `pandas` DataFrame.  
 - Extract data from both the **`support`** and **`survey`** tables.  
@@ -34,8 +34,8 @@ You have been given access to an SQLite database (`survey.db3`) generated from t
 ---
 ### Question 2: Transform (5 marks)  
 
-- Perform **data cleaning** on the `support` table by completing the SQL query below to extract and clean the data.  
-- Use the **COALESCE** function to replace missing values according to the specified criteria.  
+- Perform **data cleaning** on the `support` table.  
+- You can use the **COALESCE** function to replace missing values according to the specified criteria.  
 
 #### **Data Cleaning Requirements**  
 
@@ -49,7 +49,7 @@ You have been given access to an SQLite database (`survey.db3`) generated from t
 ---
 ### Question 3: Transform (5 marks)
 
-- Calculate the minimum and maximum response time for each category of support ticket. 
+- Use the cleaned data from Question 2 and calculate the minimum and maximum response time for each category of support ticket. 
 
 - Your output should include the columns `category`, `min_response` and `max_response`. 
 
