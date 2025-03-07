@@ -2,6 +2,9 @@
 .venv/
 venv/
 
+# Ignore solution
+
+
 # Ignore environment files (secrets)
 .env
 
