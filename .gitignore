@@ -4,9 +4,12 @@ venv/
 
 # Ignore solution
 mid-term/
-midterm_solution.ipynb
-midterm_solution.py
-test_mterm.py
+#midterm_solution.ipynb
+#midterm_solution.py
+#test_mterm.py
+#midterm_2025_Spring.md
+#respond_time.csv
+#survey.db3
 
 # Ignore environment files (secrets)
 .env
