@@ -3,7 +3,10 @@
 venv/
 
 # Ignore solution
-
+mid-term/
+midterm_solution.ipynb
+midterm_solution.py
+test_mterm.py
 
 # Ignore environment files (secrets)
 .env
