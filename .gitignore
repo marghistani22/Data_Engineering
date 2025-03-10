@@ -3,11 +3,14 @@
 venv/
 
 # Ignore solution
-mid-term/
+# Ignore Python cache files inside mid-term/
+mid-term/__pycache__/
+mid-term/.pytest_cache/
 midterm_solution.ipynb
 midterm_solution.py
 test_mterm.py
 respond_time.csv
+midterm_template_python.ipynb
 #midterm_2025_Spring.md
 #survey.db3
 #midterm_template
