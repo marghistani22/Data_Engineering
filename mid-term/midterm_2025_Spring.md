@@ -56,5 +56,5 @@ You have been given access to an SQLite database (`survey.db3`) generated from t
 ### Question 4: Load (1 marks)
 
 - Save the data from Question 3 into a CSV file named `respond_time.csv`.
-- Use the `pd.to_csv(filename, index=False)` to svae the data. 
+- Use the `pd.to_csv(filename, index=False)` to save the data. 
 ---
