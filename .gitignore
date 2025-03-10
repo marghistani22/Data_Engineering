@@ -1,0 +1,30 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore solution
+mid-term/
+midterm_solution.ipynb
+midterm_solution.py
+test_mterm.py
+respond_time.csv
+#midterm_2025_Spring.md
+#survey.db3
+#midterm_template
+
+# Ignore environment files (secrets)
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
