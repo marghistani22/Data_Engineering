@@ -59,7 +59,7 @@
 
 ## Important Dates
 - **Final Submission Deadline**: [May 7 2025]
-- **Presentation Date**: [May 9 2025]
+- **Presentation Date**: [May 13 2025]
 
 ## Notes
 - You may work individually or in pairs.
