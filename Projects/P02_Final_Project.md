@@ -11,7 +11,7 @@
 ### 1. **Data Ingestion**
 - Retrieve data from one or more sources
 - Automate data extraction if possible (e.g., API calls, web scraping, database queries)
-- Store raw data in a suitable format (CSV, JSON, Parquet, etc.)
+- Store raw data in a suitable format (CSV, JSON, Parquet etc.)
 
 ### 2. **Data Processing (ETL Pipeline)**
 - Implement a basic ETL process:
@@ -59,10 +59,22 @@
 
 ## Important Dates
 - **Final Submission Deadline**: [May 7 2025]
+- **Late submissions incur a 5% deduction per day**.
 - **Presentation Date**: [May 13 2025]
 
 ## Notes
-- You may work individually or in pairs.
+- You may work individually or **in pairs**.
 - Choose a dataset that is interesting and relevant to your learning goals.
 - Feel free to ask for guidance or feedback throughout the project.
 
+### **Resources for Project**
+
+#### 📑 **Lecture Slides**
+- Data Storage: https://www.canva.com/design/DAGeWfr3oOQ/el0lKlRJJPhrHePYjPcd0A/view?utm_content=DAGeWfr3oOQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f152b91b3
+- Data Pipeline: https://www.canva.com/design/DAGcml-RWoo/lq2ZGYKeJPEFLEd01bulVw/view?utm_content=DAGcml-RWoo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haa70aab56b
+
+#### 📂 **Further Reading**
+- [Data Piplelines Pocket Reference](https://www.amazon.com/Data-Pipelines-Pocket-Reference-Processing/dp/1492087831)
+- [TextBook](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302)
+
+https://www.canva.com/design/DAGcY_0VpU4/pvc1cl0s4P5DjU3MRATFEQ/view?utm_content=DAGcY_0VpU4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h07e9f572ba

@@ -1,0 +1,23 @@
+{
+    "data_source": "https://api.census.gov/data/2019/acs/acs5/variables.html",
+    "variables": {
+      "C17002_001E": {
+        "description": "Count of ratio of income to poverty in the past 12 months (total)",
+        "variable_code": "C17002_001E"
+      },
+      "C17002_002E": {
+        "description": "Count of ratio of income to poverty in the past 12 months (< 0.50)",
+        "variable_code": "C17002_002E"
+      },
+      "C17002_003E": {
+        "description": "Count of ratio of income to poverty in the past 12 months (0.50 - 0.99)",
+        "variable_code": "C17002_003E"
+      },
+      "B01003_001E": {
+        "description": "Total population",
+        "variable_code": "B01003_001E"
+      }
+    },
+    "source": "https://pypi.org/project/census/"
+  }
+  

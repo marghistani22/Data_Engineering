@@ -2,14 +2,15 @@
 .venv/
 venv/
 
+# Ignore environment files (secrets)
+.env
+
 # Ignore solution
+#Code/solution
+
 # Ignore Python cache files inside mid-term/
 mid-term/__pycache__/
 mid-term/.pytest_cache/
-
-
-# Ignore environment files (secrets)
-.env
 
 # Ignore compiled Python files
 __pycache__/
@@ -22,5 +23,5 @@ __pycache__/
 # Ignore log files
 *.log
 
-# Ignore database files
-*.sqlite3
+# Ignore processed data files
+Code/data/processed

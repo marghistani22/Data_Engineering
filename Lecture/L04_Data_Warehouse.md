@@ -33,6 +33,14 @@ By the end of this lecture, you will:
      - Optimized for analysis and reporting.
      - Example: Sales trends, customer behavior analysis.
 
+| Feature          | OLTP (Application Database)         | OLAP (Analytical Database)       |
+|-----------------|------------------------------------|----------------------------------|
+| **Purpose**     | Fast transactions, real-time updates | Aggregated data analysis, reporting |
+| **Data Structure** | Normalized (efficient writes)   | Denormalized (efficient reads)   |
+| **Operations**  | Read/write-heavy (small transactions) | Read-heavy (complex queries) |
+| **Examples**    | Banking apps, e-commerce transactions | Data warehouses, BI dashboards |
+
+
 ### 4. **Data Warehouse Architecture**
    - Components:
      - Source systems.
@@ -60,7 +68,7 @@ By the end of this lecture, you will:
 ---
 ### 📝 **In-class Assignment**
 1. **Template**: Use the provided [Google Docs template](https://docs.google.com/document/d/1pnFcJMD60s7axZ195MbQuxNfZSzVf0uYNNLPZXWCAW4/edit?usp=sharing) to complete your assignment.
-2. **File Naming**: Rename the document using the format: `Lecture03_firstname_lastname`.
+2. **File Naming**: Rename the document using the format: `Lecture04_firstname_lastname`.
 3. **Submission**: Upload your completed assignment to the **Assignment** folder.
 
 
@@ -83,7 +91,7 @@ By the end of this lecture, you will:
 ### **Resources for Lecture 04**
 
 #### 📑 **Lecture Slides**
-- [Access the slides on Canva](https://www.canva.com/design/DAGcml-RWoo/lq2ZGYKeJPEFLEd01bulVw/view?utm_content=DAGcml-RWoo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haa70aab56b)
+- [Access the slides on Canva](https://www.canva.com/design/DAGeWfr3oOQ/el0lKlRJJPhrHePYjPcd0A/view?utm_content=DAGeWfr3oOQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f152b91b3)
 
 #### 📂 **Further Reading**
 - [Data Piplelines Pocket Reference](https://www.amazon.com/Data-Pipelines-Pocket-Reference-Processing/dp/1492087831)

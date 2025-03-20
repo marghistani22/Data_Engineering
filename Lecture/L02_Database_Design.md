@@ -77,7 +77,7 @@ By the end of this lecture, you will:
 ## 📂 **Resources**
 
 ### 📑 **Lecture Slides**
-- [View the lecture slides on Canva][(https://www.canva.com/design/DAGcm9szo3M/91uQo5crMu2UycpqzJzkJw/view?utm_content=DAGcm9szo3M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=heb02958cb3)]
+- [View the lecture slides on Canva][https://www.canva.com/design/DAGcY_0VpU4/pvc1cl0s4P5DjU3MRATFEQ/view?utm_content=DAGcY_0VpU4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h07e9f572ba]
 
 ### 📝 **In-class Assignment**
 1. **Template**: Use the provided [Google Docs template](https://docs.google.com/document/d/1pnFcJMD60s7axZ195MbQuxNfZSzVf0uYNNLPZXWCAW4/edit?usp=sharing) to complete your assignment.
