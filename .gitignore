@@ -6,7 +6,7 @@ venv/
 .env
 
 # Ignore solution
-#Code/solution
+Code/solution
 
 # Ignore Python cache files inside mid-term/
 mid-term/__pycache__/
