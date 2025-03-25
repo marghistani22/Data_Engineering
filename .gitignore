@@ -3,7 +3,7 @@
 venv/
 
 # Ignore environment files (secrets)
-.env
+*.env
 
 # Ignore solution
 Code/solution
