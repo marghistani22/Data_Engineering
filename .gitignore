@@ -6,7 +6,7 @@ venv/
 .env
 
 # Ignore solution
-#Code/solution
+Code/solution
 #Code/Ex09_ETL_Pipeline.ipynb
 #Code/Ex10_Data_Visualization.ipynb
 
