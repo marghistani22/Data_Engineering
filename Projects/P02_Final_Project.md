@@ -20,7 +20,6 @@
   - **Load**: Store transformed data into a structured database (SQLite)
 
 ### 3. **Database & Querying**
-- Design a schema for storing structured data
 - Use SQL to query and analyze the processed data
 
 
@@ -39,14 +38,14 @@
 ## Submission Requirements
 - Submit your project in your personal classroom GitHub repository 
 - Include all scripts, notebooks, SQL queries, and supporting files
-- Provide a short presentation (5-10 slides) summarizing your project
+- Prepare a short presentation (5-10 slides) summarizing your project
 
 ## Grading Criteria
 | Category          | Points |
 |------------------|--------|
 | Data Ingestion  | 20     |
 | ETL Pipeline    | 30     |
-| Database Design & Querying | 20 |
+| Visualization & Querying | 20 |
 | Documentation & Code Quality | 20 |
 | Presentation | 10 |
 | **Total**       | **100** |
@@ -54,11 +53,11 @@
 ## Suggested Tools & Technologies
 - **Programming**: Python, SQL
 - **Data Storage**: MySQL, SQLite
-- **ETL & Workflow**: Pandas, Apache Airflow, dbt
+- **ETL & Workflow**: Pandas, Apache Airflow
 - **Visualization**: Matplotlib, Seaborn, or Power BI, Tableau
 
 ## Important Dates
-- **Final Submission Deadline**: [May 7 2025]
+- **Final Submission Deadline**: [May 6 2025]
 - **Late submissions incur a 5% deduction per day**.
 - **Presentation Date**: [May 13 2025]
 
