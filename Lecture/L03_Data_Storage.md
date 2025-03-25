@@ -1,6 +1,6 @@
-# **Lecture 03: Introduction to Data Warehouse**
+# **Lecture 03: Introduction to Data Storage**
 
-Welcome to the fourth lecture of the **Data Engineering Principles** course! This lecture introduces data warehouses, their purpose, and how they differ from traditional databases. You will also learn about key concepts like OLAP, schema design, and the role of data warehouses in modern analytics.
+This lecture introduces data warehouses, their purpose, and how they differ from traditional databases. You will also learn about key concepts like OLAP, schema design, and the role of data warehouses in modern analytics.
 
 ---
 
@@ -64,21 +64,6 @@ By the end of this lecture, you will:
      - Retail: Sales and inventory analysis.
      - Finance: Risk assessment and fraud detection.
      - Healthcare: Patient data and treatment analysis.
-
----
-### 📝 **In-class Assignment**
-1. **Template**: Use the provided [Google Docs template](https://docs.google.com/document/d/1pnFcJMD60s7axZ195MbQuxNfZSzVf0uYNNLPZXWCAW4/edit?usp=sharing) to complete your assignment.
-2. **File Naming**: Rename the document using the format: `Lecture04_firstname_lastname`.
-3. **Submission**: Upload your completed assignment to the **Assignment** folder.
-
-
-## 🛠️ **Activity**
-1. **Design Exercise**: Create a basic star schema for MMDT data.
-   - Identify fact and dimension tables.
-   - Optional: Implement the schema using SQLite and populate it with sample data.
-
-2. **Schema Documentation**: Document the schema and explain your design choices.
-
 ---
 
 ## 📌 **Key Takeaways**
@@ -88,7 +73,7 @@ By the end of this lecture, you will:
 
 ---
 
-### **Resources for Lecture 04**
+### **Resources for Lecture 03**
 
 #### 📑 **Lecture Slides**
 - [Access the slides on Canva](https://www.canva.com/design/DAGeWfr3oOQ/el0lKlRJJPhrHePYjPcd0A/view?utm_content=DAGeWfr3oOQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f152b91b3)
