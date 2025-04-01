@@ -1,6 +1,6 @@
 # **Lecture 05: Data Pipeline**
 
-This lecture explores Queries, data modelling, transformation and loading.
+This lecture explores Python Pandas Common Methods for Queries, data modelling, transformation and loading.
 ---
 
 # Pandas Basics for Data Engineering Beginners
@@ -103,7 +103,7 @@ df.to_csv("cleaned_data.csv", index=False)
 ### **Resources for Lecture 05**
 
 #### 📑 **Lecture Slides**
-- [Access the slides on Canva](https://www.canva.com/design/DAGiG623q9g/PoZi9y_3OopU1GCq8US4KQ/view?utm_content=DAGiG623q9g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ced2f80dc)
+- [Access the slides on Canva](https://www.canva.com/design/DAGiG623q9g/ma31lpJiiKJvcnJW2vE4uA/view?utm_content=DAGiG623q9g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h090ed2e976)
 
 #### 📂 **Further Reading**
 - [Data Piplelines Pocket Reference](https://www.amazon.com/Data-Pipelines-Pocket-Reference-Processing/dp/1492087831)
